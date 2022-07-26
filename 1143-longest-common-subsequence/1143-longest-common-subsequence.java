@@ -7,8 +7,8 @@ class Solution {
         for(int j=0;j<text2.length();j++){
             lcs[0][j]=0;
         }
-        for(int i=1;i<lcs.length;i++){
-            for(int j=1;j<lcs[i].length;j++){
+        for(int i=1;i<text1.length()+1;i++){
+            for(int j=1;j<text2.length()+1;j++){
                 if(text1.charAt(i-1)==text2.charAt(j-1)){
                 lcs[i][j]= 1 + lcs[i-1][j-1];
                 }
