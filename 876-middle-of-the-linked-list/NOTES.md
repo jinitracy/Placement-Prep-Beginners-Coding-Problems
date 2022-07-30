@@ -1,3 +1,1 @@
-Here we use the tortoise method...
-​
 ​
